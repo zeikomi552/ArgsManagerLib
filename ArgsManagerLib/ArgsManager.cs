@@ -15,6 +15,11 @@ namespace ArgsManagerLib
         public List<string> Keys { get; private set; } = new List<string>();
         public Dictionary<string, string> KeyValuePairs { get; private set; } = new Dictionary<string, string>();
 
+        /// <summary>
+        /// インデクサー
+        /// </summary>
+        /// <param name="key">キー</param>
+        /// <returns>Value</returns>
         public string this[string key]
         {
             get { return GetValue(key); }
