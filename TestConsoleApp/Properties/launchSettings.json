@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "TestConsoleApp": {
+      "commandName": "Project",
+      "commandLineArgs": "-p1 test       -p3 -p4 -p2 123"
+    }
+  }
+}

@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArgsManagerLib", "ArgsManagerLib\ArgsManagerLib.csproj", "{B1BC6ACC-2619-47AA-95B1-4EE98A9F65B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArgsManagerLib", "ArgsManagerLib\ArgsManagerLib.csproj", "{B1BC6ACC-2619-47AA-95B1-4EE98A9F65B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArgsManagerLibTests", "ArgsManagerLibTests\ArgsManagerLibTests.csproj", "{125A6A8E-AF01-42F5-9C91-DAD5D73E8174}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArgsManagerLibTests", "ArgsManagerLibTests\ArgsManagerLibTests.csproj", "{125A6A8E-AF01-42F5-9C91-DAD5D73E8174}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsoleApp", "TestConsoleApp\TestConsoleApp.csproj", "{325100D1-1060-44DE-8170-74431985EAE8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{125A6A8E-AF01-42F5-9C91-DAD5D73E8174}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{125A6A8E-AF01-42F5-9C91-DAD5D73E8174}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{125A6A8E-AF01-42F5-9C91-DAD5D73E8174}.Release|Any CPU.Build.0 = Release|Any CPU
+		{325100D1-1060-44DE-8170-74431985EAE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{325100D1-1060-44DE-8170-74431985EAE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{325100D1-1060-44DE-8170-74431985EAE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{325100D1-1060-44DE-8170-74431985EAE8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -75,13 +75,31 @@ namespace ArgsManagerLib
 
             int index = this.Args.IndexOf(key);
 
-            if (index >= 0 && this.Args.Count > index + 1)
+            if (index >= 0)
             {
-                return this.Args[index + 1];
+                if (this.Args.Count > index + 1)
+                {
+                    var tmp2 = (from x in this.Keys
+                                where x.Equals(this.Args[index + 1])
+                                select x).FirstOrDefault();
+
+                    if (tmp2 == null)
+                    {
+                        return this.Args[index + 1];
+                    }
+                    else
+                    {
+                        return "true";
+                    }
+                }
+                else
+                {
+                    return "true";
+                }
             }
             else
             {
-                return string.Empty;
+                return "false";
             }
         }
     }

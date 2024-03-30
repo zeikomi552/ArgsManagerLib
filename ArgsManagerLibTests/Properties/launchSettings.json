@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ArgsManagerLibTests": {
+      "commandName": "Project",
+      "commandLineArgs": "-aaa 1 -aaa 0 ccc 10 -ddd zeikomi -eee aaa"
+    }
+  }
+}
