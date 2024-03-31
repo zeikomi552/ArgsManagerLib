@@ -5,8 +5,6 @@ Easy to Use Command Line Paramters for Console Application
 
 
 
-<div id="top"></div>
-
 ## Setup
 
 [Nuget - ArgsManagerLib](https://www.nuget.org/packages/ArgsManagerLib/)
@@ -34,5 +32,3 @@ foreach (var key in keys)
 // -p4 --> true
 // -p5 --> false
 ```
-
-<p align="right">(<a href="#top">トップへ</a>)</p>
